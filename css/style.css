@@ -85,6 +85,14 @@ margin-top: 10px;font-size: 16px;cursor: pointer;transition: .5s;text-transform:
 button.all-btn:hover {background: #6a4ebf;}
 button.all-btn:focus{outline: none;}
 
+
+a.all-btn {background: #886ae4;border: none;color: #fff;max-width: 200px;width: 100%;border-radius: 100px;
+  height: 50px;margin-top: 10px;font-size: 16px;cursor: pointer;transition: .5s;text-transform: uppercase;
+  display: inline-block;line-height: 50px;text-align: center;text-decoration: none;}  
+  
+a.all-btn:hover {background: #6a4ebf;}
+a.all-btn:focus{outline: none;}
+
 section#skull-sec {margin: 140px 0;}
 
 .process-points {position: absolute;z-index: 1;top: 100px;width: 75%;}
