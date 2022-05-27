@@ -1,0 +1,270 @@
+
+@media (min-width: 1500px) {
+.container{max-width: 1440px;}
+.building_doc_img img {max-height: 400px;min-height: 400px;}
+.building_design .building_text {min-height: 370px;}
+}
+
+@media (max-width: 1499px) {
+.container{max-width: 1300px;}
+.payment-form-inner {padding: 27px 60px 0px 30px;}
+.testimonial-section2 {/* padding: 16% 2% 0% 10%;background-size: cover;*/}
+}
+
+@media (max-width: 1366px) {
+.banner-left h1 {font-size: 70px;}
+.banner-left h2 {font-size: 60px;}
+
+.skull-img img {max-width: 600px;width: 100%;}
+.skull-img {text-align: right;}
+.skull-img .icon-div img {width: 47px;margin-top: 5px;}
+.icon-div {width: 90px;height: 90px;}
+
+.process-points {top: 93px;width: 75%;}
+.process-points h3 {font-size: 18px;margin: 0 0 5px;}
+.process-points ul li {padding: 0;padding-left: 57px;height: 80px;}
+.process-points p {font-size: 14px;}
+
+.form-group label:before {padding: 15px;}
+.form-group label {font-size: 14px;}
+.form-group input:checked + label:after {top: 6px;left: 13px;width: 7px;height: 16px;}
+
+.payment-form-inner .row {margin-bottom: 50px;}
+.payment-form-inner input[type="text"] {height: 45px;}
+.all-head h4 {font-size: 30px;}
+.testimonial-section2 {/* padding: 14% 0% 1% 13%;background-size: cover;*/}
+}
+
+@media (max-width: 1300px) {
+.payment-form-inner .row {margin-bottom: 40px;}
+}
+@media (max-width: 1200px) {
+.service_box h5 {font-size: 13px;}
+}
+@media (min-width: 1046px) and (max-width: 1200px) {
+.building_doc_img img {max-height: 320px;min-height: 320px;}
+.building_design .building_text {min-height: 290px;}
+.building_design .building_text h5 {font-size: 21px;}
+.building_design .building_text p {font-size: 15px;}
+}
+@media (min-width: 992px) and (max-width: 1045px) {
+.building_doc_img img {max-height: 300px;min-height: 300px;}
+.building_design .building_text {min-height: 270px;}
+.building_design .building_text h5 {font-size: 21px;}
+.building_design .building_text p {font-size: 15px;}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+header#head-top:after {height: 185px;}
+header#head-top:before {width: 180px;}
+
+}
+/**tablet sizes**/
+@media (max-width: 1100px) {
+.process-points {top: 45px;width: 75%;}
+/*----------inner pages----------*/
+.explore_service_section:after {width: 300px;height: 195px;}
+}
+
+@media (max-width: 1024px) {
+.testim .cont div p {font-size: 1.0em;}
+.testim .cont > div > img {max-width: 35px;}
+.testimonial-section2 {/* padding: 21% 8% 8% 15%;background-size: cover;*/}
+.testi-user {/*margin: 18px 60px 0 0;*/}
+/*----------inner pages----------*/
+.finest_patient_section .all-head {margin-top: 20px;}
+.care_amenities_img img {max-width: 100%;}
+}
+
+@media (max-width: 1000px) {
+.payment-form-inner .row {margin-bottom: 10px;}
+.payment-form-inner .row {margin-bottom: 40px;}
+}
+/*----------inner pages----------*/
+@media (min-width: 992px) {
+.explore_service_section .col-md-3.col-sm-4.col-lg {flex: auto;width: 20%;max-width: 20%;}
+}
+/**Mobile device**/
+@media (max-width: 992px) {
+.banner-left h2 {font-size: 45px;margin: 0 0 20px;}
+header#head-top:after {width: 60%;}
+header#head-top:before {width: 20%;}
+
+.logo img {max-width: 550px;width: 100%;}
+.banner-left {padding-top: 16px;}
+.banner-left h1 {font-size: 50px;}
+.process-points {top: 45px;width: 75%;}
+.skull-img .icon-div img {width: 39px;margin-top: 1px;}
+.process-points ul li {margin-bottom: 10px;}
+.icon-div {width: 70px;height: 70px;border-width: 5px;}
+
+.process-points ul li {padding: 0;padding-left: 30px;height: 60px;}
+.process-points p {font-size: 10px;}
+.process-points h3 {font-size: 14px;margin: 0 0 5px;}
+.payment-form-inner {padding:27px 30px 0 0px;}
+.payment-form-inner .row {margin-bottom: 15px;}
+.payment-form-inner input[type="text"] {height: 40px;}
+
+button.pay-btn {height: 40px;margin-top: 10px;}
+.testimonial-section2 {/* position: relative;padding: 28% 0% 5% 11%;*/}
+.testim .cont div p {font-size: .9em;}
+.testim .cont > div > img {max-width: 45px;}
+
+.testi-user {/* margin: 20px 60px 29px 0;*/}
+.testim .cont div .img img {width: 60px;height: 60px;}
+.testim .wrap {padding: 0 20px;margin: auto;}
+
+section#testimonial {margin-bottom: 100px;}
+
+.checkbox-list {background-size: cover;padding: 0;}
+.payment-form-inner .row {margin-bottom: 40px;}
+
+/*----------inner pages----------*/
+.explore_service_section:before {width: 260px;height: 475px;}
+.explore_service_section:after {width: 195px;height: 125px;}
+.service_box a {font-size: 12px;}
+.service_box h5 {font-size: 14px;}
+}
+
+@media (max-width: 895px) {
+.testimonial-section2 {/*position: relative;padding: 23% 0% 4% 11%;*/}
+}
+
+@media (max-width: 768px) {
+.testimonial-section2 {/*position: relative;padding: 18% 0% 0% 5%;*/}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.building_design .building_text {padding: 10px;min-height: 220px;}
+.building_design .building_text img {width: 60px;}
+.building_design .building_text h5 {font-size: 20px;margin-top: 10px;}
+.building_design .building_text p {font-size: 12px;}
+.building_doc_img img {max-height: 250px;min-height: 250px;}
+}
+
+@media (max-width: 767px) {
+.logo {text-align: center;}
+.testi-img {text-align: center;}
+.testim .cont > div {/* top: 0;left: 0;padding: 30% 5% 36% 12%;*/}
+.testimonial-section2 {/* position: relative;padding: 0;background-size: cover;*/}
+.payment-form-inner {padding: 40px 40px;}
+button.pay-btn {height: 50px;margin-top: 10px;}
+
+.banner-img {text-align: center;}
+.banner-img img {max-width: 550px;width: 90%;}
+.banner-left {text-align: center;margin-bottom: 70px;}
+.banner-left h2 {font-size: 55px;margin: 0 0 20px;}
+.banner-left p {max-width: inherit;}
+.process-points {top: 95px;width: 45%;left: 32%;}
+.skull-img {text-align: right;position: relative;margin-top: 70px;}
+.skull-img img {max-width: 430px;width: 100%;}
+.payment-form-inner .row > div:nth-child(2) {margin-top: 40px;}
+/*----------inner pages----------*/
+section.finest_patient_section {padding: 0px 0 50px 0;}
+.finest_patient_section .all-head {margin-top: 50px;text-align:center;}
+.explore_service_section {padding-top: 30px;padding-bottom: 60px;margin-bottom: 30px;}
+.explore_service_section button.all-btn {margin: 20px auto 0;}
+.finest_patient_section .all-head hr {margin: 0 auto;}
+.finest_patient_section ul li:before {display:none;}
+.meet_doctor_section {padding-top: 30px;margin-bottom: 30px;padding-bottom:0px;}
+section.doctor_services_section {padding: 30px 0;}
+section.doctor_services_section .all-head {margin-bottom: 30px;}
+.form-group label:before {padding: 10px;}
+.form-group input:checked + label:after {top: 1px;left: 8px;}
+#testimonial .all-head {text-align: center;margin-bottom: 40px;}
+section#testimonial .all-head hr {margin: 0 auto;}
+section#payment-option {margin: 0 0 70px;}
+.doctor_services_section .owl-dots {display: none;}
+
+
+.doctor_services_section .owl-nav {display: block !important;margin: 20px auto;width: 175px;}
+.doctor_services_section .owl-nav .owl-prev, .doctor_services_section .owl-nav .owl-next {position: relative;font-size: 0;margin: 20px;display:inline-block;}
+.doctor_services_section .owl-nav .owl-next:before {content: "\f105";position: absolute;right: -80px;color: #fff;height: 40px;width: 40px;
+top: 20px;font-family: 'FontAwesome';opacity: 1;background: #886ae4;border-radius: 50px;text-align: center;transform: translate(10px, -38px);
+line-height: 40px;font-size: 16px;}
+.doctor_services_section .owl-nav .owl-prev:before {content: "\f104";position: absolute;left: 0;color: #fff;height: 40px;width: 40px;
+top: 20px;font-family: 'FontAwesome';opacity: 1;background: #886ae4;border-radius: 50px;text-align: center;transform: translate(10px, -38px);
+line-height: 40px;font-size: 16px;}
+
+.message_seo_section .all-head {margin-top: 50px;text-align: center;}
+.message_seo_section .all-head hr {margin: 0 auto;margin-bottom: 20px;}
+.message_seo_section {margin: 30px 0;}
+.message_seo_building_section {padding: 30px 0;}
+.message_seo_building_section .all-head {margin-top: 0;text-align: center;}
+.message_seo_building_section .all-head hr {margin: 0 auto;margin-bottom: 20px;}
+.message_seo_building_section ul li:before {display:none;}
+.message_seo_building_section ul li, .finest_patient_section ul li {padding: 0px;}
+section.message_seo_news_section {padding: 30px 0;}
+section.message_seo_news_section .all-head {margin-bottom: 10px;}
+.message_seo_news_section:before, .humanbody_section:before {display:none;}
+.humanbody_section {padding: 30px 0;}
+}
+@media (max-width: 599px) {
+section.message_seo_news_section .news_text {text-align: center;}
+}
+@media (max-width: 575px) {
+.meet_doc_box .text {text-align: center;}	
+.building_design .building_text {padding: 10px;min-height: 270px;}
+.building_design .building_text img {width: 60px;}
+.building_design .building_text h5 {font-size: 22px;margin-top: 10px;}
+.building_design .building_text p {font-size: 14px;}
+.building_doc_img img {max-height: 300px;min-height: 300px;}
+}
+
+@media (max-width: 568px) {
+header#head-top:before {left: 0;top: 0;height: 150px;width: 20%;}
+header#head-top:after {right: 0;top: 0;height: 250px;width: 70%;}
+.banner-left {padding-top: 15px;text-align: center;margin-bottom:0px;}
+.banner-left h1 {font-size: 50px;}
+.banner-left h2 {font-size: 40px;}
+.banner-img {margin-top: 0px;}
+section#skull-sec {margin: 70px 0;}
+
+.process-points ul li:nth-child(4), .process-points ul li:nth-child(3), 
+.process-points ul li:nth-child(2), .process-points ul li:nth-child(1) {margin-left: 50px;}
+
+.skull-img {margin-top: 60px;}
+.icon-div {width: 70px;height: 70px;border-width: 2px;left: -53px;top: -6px;}
+.process-points ul li {padding-left: 28px;margin-bottom: 15px;}
+.process-points p {font-size: 10px;margin: 0;}
+.process-points h3 {font-size: 12px;margin: 0 0 5px;}
+.skull-img .icon-div img {width: 46px;margin-top: 0;}
+.process-points ul li {height: 60px;}
+.process-points {top: 15%;width: 75%;left: 0;}
+.payment-form-inner {padding: 27px 27px 0px 30px;}
+
+.testim .cont div p {font-size: .8em;line-height: 20px;margin-top: 6px;}
+.testi-user {/* margin: 20px 16px 90px 0;*/}
+.testim .cont > div > img {max-width: 20px;}
+.testim .cont > div {/*padding: 145px 5% 0 12%;*/}
+.testimonial-section2 {/*position: relative;padding: 2%;background-size: cover;*/}
+.testi-user {margin: 20px 0 0 0;}
+/*----------inner pages----------*/
+.explore_service_section:before {display:none;}
+.explore_service_section:after {display:none;}
+}
+@media (max-width: 470px) {
+.building_design div {
+    float: none;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.building_design .building_text.pinkbg {
+    margin-top: 0;
+}
+.building_design.ping_design {
+    display: flex;
+    flex-direction: column-reverse;
+}
+}
+
+@media (max-width: 360px) {
+.process-points {top: 15%;width: 84%;left: 0;}
+.process-points ul li {padding-left: 8px;margin-bottom: 13px;}
+.icon-div {width: 50px;height: 50px;border-width: 2px;left: -45px;top: 2px;}
+.skull-img .icon-div img {width: 27px;margin-top: 0;}
+.process-points ul li {height: 45px;}
+.payment-form-inner label {font-size: 12px;letter-spacing: 4px;}
+.all-head h4 {font-size: 25px;}   
+}
+
