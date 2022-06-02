@@ -202,10 +202,7 @@ section#testimonial {margin-bottom: 100px;}
 }
 
 @media (max-width: 771px) {
-.fees_box img {
-    top: -40px;
-    margin-bottom: -40px;
-}
+.fees_box img {top: -40px;margin-bottom: -40px;}
 }
 
 @media (max-width: 768px) {
@@ -230,30 +227,12 @@ section#testimonial {margin-bottom: 100px;}
 .fees_box .fees_blue_box .price em {display: block; font-size: 12px;}
 .fees_box .fees_blue_box .price {font-size: 35px;}
 .fees_box .fees_blue_box .price i {font-size: 18px; top: -10px;}
-.fees_blue_box.grren {
-    min-height: 210px;
-}
-
-.fees_box .fees_blue_box {
-    position: relative;
-    min-height: 214px;
-}
-
-.fees_box img {
-    top: -50px;
-    margin-bottom: -50px;
-}
-
-.fees_box .fees_text ul li {
-    font-size: 12px;
-}
-
-.fees_box .fees_text {
-    padding: 20px 20px 40px 20px;
-}
-
-
-
+.fees_blue_box.grren {min-height: 210px;}
+.fees_box .fees_blue_box {position: relative;min-height: 214px;}
+.fees_box img {top: -50px;margin-bottom: -80px;}
+.fees_box .fees_text ul li {font-size: 12px;}
+.fees_box .fees_text {padding: 20px 20px 40px 20px;}
+.fees_box .fees_text.green {min-height: 665px;}
 }
 
 @media (max-width: 767px) {
@@ -327,42 +306,15 @@ section.medical_fee_medinfo_sec .all-head hr {margin: 0 auto;}
 section.medical_fee_medinfo_sec .all-head a.faq_btn {margin: 20px auto;}
 .fees-sha img {    max-width: 300px;    margin: 0 auto;    display: inherit;}
 
-div#accordion {
-    width: 90%;
-    margin: 0 auto;
-}
-.banner-left.madical_fee_banner {
-    padding-top: 10%;
-}
-.fees_box .fees_text.green {
-    min-height: inherit;
-    padding-bottom: 50px;
-}
-.fees_box img {
-    top: -65px;
-    margin-bottom: -40px;
-}
-.fees_box .fees_text {
-    padding: 20px 20px 40px 20px;
-}
-
-section.medical_fee_medinfo_sec:before{
-    display: none;
-}
-
-.fees_box .fees_blue_box h2 {
-    padding-top: 50px;
-    font-size: 35px;
-}
-
-section.medical_fee_medinfo_sec .all-head p {
-    margin: 20px 0;
-}
-
-section.medical_fee_medinfo_sec .all-head button .min_plus {
-    position: absolute;
-    left: 10px;
-}
+div#accordion {width: 90%;margin: 0 auto;}
+.banner-left.madical_fee_banner {padding-top: 10%;}
+.fees_box .fees_text.green {min-height: inherit;padding-bottom: 50px;}
+.fees_box img {top: -65px;margin-bottom: -40px;}
+.fees_box .fees_text {padding: 20px 20px 40px 20px;}
+section.medical_fee_medinfo_sec:before{display: none;}
+.fees_box .fees_blue_box h2 {padding-top: 50px;font-size: 35px;}
+section.medical_fee_medinfo_sec .all-head p {margin: 20px 0;}
+section.medical_fee_medinfo_sec .all-head button .min_plus {position: absolute;left: 10px;}
 
 }
 
@@ -377,7 +329,6 @@ h3 {font-size: 28px;}
 .building_design .building_text h5 {font-size: 22px;margin-top: 10px;}
 .building_design .building_text p {font-size: 14px;}
 .building_doc_img img {max-height: 300px;min-height: 300px;}
-
 .fees_box .fees_blue_box h2 {font-size: 30px;}
 
 }
@@ -415,34 +366,12 @@ section#skull-sec {margin: 70px 0;}
 .explore_service_section:after {display:none;}
 }
 @media (max-width: 470px) {
-.building_design div {
-    float: none;
-    width: 100%;
-    max-width: 250px;
-    margin: 0 auto;
-}
-.building_design .building_text.pinkbg {
-    margin-top: 0;
-}
-.building_design.ping_design {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.fees_box img {
-    top: -70px;
-    margin-bottom: -50px;
-}
-
-div#accordion {
-    width: 100%;
-    margin: 0 auto;
-}
-
-section.medical_fee_medinfo_sec .all-head button .min_plus {
-    margin: 4px 5px;
-    float: left;
-}
+.building_design div {float: none;width: 100%;max-width: 250px;margin: 0 auto;}
+.building_design .building_text.pinkbg {margin-top: 0;}
+.building_design.ping_design {display: flex;flex-direction: column-reverse;}
+.fees_box img {top: -70px;margin-bottom: -50px;}
+div#accordion {width: 100%;margin: 0 auto;}
+section.medical_fee_medinfo_sec .all-head button .min_plus {margin: 4px 5px;float: left;}
 
 }
 
