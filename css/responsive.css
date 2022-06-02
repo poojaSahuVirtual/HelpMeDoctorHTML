@@ -9,11 +9,27 @@
 .container{max-width: 1300px;}
 .payment-form-inner {padding: 27px 60px 0px 30px;}
 .testimonial-section2 {/* padding: 16% 2% 0% 10%;background-size: cover;*/}
+.fees_box .fees_text.green {
+    min-height: 660px;
+}
+.fees_box .fees_text {
+    min-height: 700px;
+}
+
+.fees_box img {
+    position: relative;
+    top: -70px;
+    margin-bottom: -50px;
+}
+
 }
 
 @media (max-width: 1366px) {
 .banner-left h1 {font-size: 70px;}
 .banner-left h2 {font-size: 60px;}
+
+.madical_fee_banner h1 {font-size: 35px;}
+.madical_fee_banner h2 {font-size: 34px;}
 
 .skull-img img {max-width: 600px;width: 100%;}
 .skull-img {text-align: right;}
@@ -33,31 +49,80 @@
 .payment-form-inner input[type="text"] {height: 45px;}
 .all-head h4 {font-size: 30px;}
 .testimonial-section2 {/* padding: 14% 0% 1% 13%;background-size: cover;*/}
+
+/*.fees_box .fees_text.green { min-height: 525px;}*/
+
 }
 
 @media (max-width: 1300px) {
 .payment-form-inner .row {margin-bottom: 40px;}
+/*.fees_box .fees_text.green {
+    min-height: 570px;
+}*/
+.fees_box img {
+    top: -60px;
+    margin-bottom: -50px;
+}
+
+.fees_box .fees_blue_box h2 {
+    padding-top: 50px;
+}
+
+.fees_box .fees_blue_box .price {
+    font-size: 50px;
+}
+
+.fees_box .fees_text ul li {
+    font-size: 14px;
+}
+
 }
 @media (max-width: 1200px) {
 .service_box h5 {font-size: 13px;}
+.fees_box .fees_text {padding: 20px 20px 114px 20px;}
+.fees_box .fees_text {min-height: 730px;}
+
 }
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+.fees_box .fees_blue_box img {bottom: -90px;}	
+/*.fees_box .fees_text {min-height: 590px;}*/
+}
+
 @media (min-width: 1046px) and (max-width: 1200px) {
 .building_doc_img img {max-height: 320px;min-height: 320px;}
 .building_design .building_text {min-height: 290px;}
 .building_design .building_text h5 {font-size: 21px;}
 .building_design .building_text p {font-size: 15px;}
+.fees_box img {top: -60px; margin-bottom: -50px;}
 }
+@media (min-width: 992px) and (max-width: 1200px) {
+header#head-top:after {height: 185px;}
+header#head-top:before {width: 180px;}
+}
+
 @media (min-width: 992px) and (max-width: 1045px) {
 .building_doc_img img {max-height: 300px;min-height: 300px;}
 .building_design .building_text {min-height: 270px;}
 .building_design .building_text h5 {font-size: 21px;}
 .building_design .building_text p {font-size: 15px;}
-}
-@media (min-width: 992px) and (max-width: 1200px) {
-header#head-top:after {height: 185px;}
-header#head-top:before {width: 180px;}
 
+.fees_box .fees_blue_box h2 {font-size: 30px;padding-top: 20px;}
+.fees_box .fees_blue_box .price {font-size: 35px;}
+.fees_box .fees_blue_box .price i {font-size: 16px;top: -12px}
+.fees_box .fees_blue_box .price em {font-size: 14px;line-height: 18px;}
+.fees_box .fees_blue_box {min-height: 195px;}
+.fees_box .fees_blue_box img {bottom: -50px;}
+.fees_box .fees_text {margin-top: 20px;min-height: 660px;}
+.fees_box img {top: -50px; margin-bottom: -50px;}
+.fees_box .fees_text ul li {font-size: 12px;}
+
+.fees_box .fees_blue_box.grren {min-height: 240px;}
+.logo img {
+    max-width: 420px;
 }
+}
+
 /**tablet sizes**/
 @media (max-width: 1100px) {
 .process-points {top: 45px;width: 75%;}
@@ -73,6 +138,9 @@ header#head-top:before {width: 180px;}
 /*----------inner pages----------*/
 .finest_patient_section .all-head {margin-top: 20px;}
 .care_amenities_img img {max-width: 100%;}
+.fees_box .fees_text.green {
+    min-height: 630px;
+}
 }
 
 @media (max-width: 1000px) {
@@ -123,14 +191,26 @@ section#testimonial {margin-bottom: 100px;}
 .explore_service_section:after {width: 195px;height: 125px;}
 .service_box a {font-size: 12px;}
 .service_box h5 {font-size: 14px;}
+
+.madical_fee_banner h1 {font-size: 35px;}
+.madical_fee_banner h2 {font-size: 34px;}
 }
 
 @media (max-width: 895px) {
 .testimonial-section2 {/*position: relative;padding: 23% 0% 4% 11%;*/}
+
+}
+
+@media (max-width: 771px) {
+.fees_box img {
+    top: -40px;
+    margin-bottom: -40px;
+}
 }
 
 @media (max-width: 768px) {
 .testimonial-section2 {/*position: relative;padding: 18% 0% 0% 5%;*/}
+
 
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -139,6 +219,41 @@ section#testimonial {margin-bottom: 100px;}
 .building_design .building_text h5 {font-size: 20px;margin-top: 10px;}
 .building_design .building_text p {font-size: 12px;}
 .building_doc_img img {max-height: 250px;min-height: 250px;}
+
+/*.feesplan_section .col-md-4 {width: 100%;max-width: 100%;flex: 100%;}*/
+.fees_box {max-width: 400px;margin: 0 auto;}
+.fees_box .fees_text a.get_btn {display: block;position: absolute;}
+.fees_box .fees_text {min-height:700px;}
+.fees_box .fees_text ul {margin: 30px 0 30px 0;}
+
+.fees_box .fees_blue_box h2 {font-size: 30px;}
+.fees_box .fees_blue_box .price em {display: block; font-size: 12px;}
+.fees_box .fees_blue_box .price {font-size: 35px;}
+.fees_box .fees_blue_box .price i {font-size: 18px; top: -10px;}
+.fees_blue_box.grren {
+    min-height: 210px;
+}
+
+.fees_box .fees_blue_box {
+    position: relative;
+    min-height: 214px;
+}
+
+.fees_box img {
+    top: -50px;
+    margin-bottom: -50px;
+}
+
+.fees_box .fees_text ul li {
+    font-size: 12px;
+}
+
+.fees_box .fees_text {
+    padding: 20px 20px 40px 20px;
+}
+
+
+
 }
 
 @media (max-width: 767px) {
@@ -197,9 +312,63 @@ section.message_seo_news_section {padding: 30px 0;}
 section.message_seo_news_section .all-head {margin-bottom: 10px;}
 .message_seo_news_section:before, .humanbody_section:before {display:none;}
 .humanbody_section {padding: 30px 0;}
+
+.madical_fee_banner h1 {font-size: 35px;}
+.madical_fee_banner h2 {font-size: 34px;}
+
+.feesplan_section {padding: 30px 0;margin-top: 0px;}
+.fees_box {max-width: 400px;margin: 0 auto;}
+.fees_box .fees_text a.get_btn {display: block;position: relative;bottom: 0;}
+.fees_box .fees_text {min-height:auto;}
+.fees_box .fees_text ul {margin: 30px 0 30px 0;}
+section.medical_fee_medinfo_sec {padding: 0px 0;padding-bottom: 60px;}
+section.medical_fee_medinfo_sec .all-head {text-align: center;}
+section.medical_fee_medinfo_sec .all-head hr {margin: 0 auto;}
+section.medical_fee_medinfo_sec .all-head a.faq_btn {margin: 20px auto;}
+.fees-sha img {    max-width: 300px;    margin: 0 auto;    display: inherit;}
+
+div#accordion {
+    width: 90%;
+    margin: 0 auto;
 }
+.banner-left.madical_fee_banner {
+    padding-top: 10%;
+}
+.fees_box .fees_text.green {
+    min-height: inherit;
+    padding-bottom: 50px;
+}
+.fees_box img {
+    top: -65px;
+    margin-bottom: -40px;
+}
+.fees_box .fees_text {
+    padding: 20px 20px 40px 20px;
+}
+
+section.medical_fee_medinfo_sec:before{
+    display: none;
+}
+
+.fees_box .fees_blue_box h2 {
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+section.medical_fee_medinfo_sec .all-head p {
+    margin: 20px 0;
+}
+
+section.medical_fee_medinfo_sec .all-head button .min_plus {
+    position: absolute;
+    left: 10px;
+}
+
+}
+
 @media (max-width: 599px) {
 section.message_seo_news_section .news_text {text-align: center;}
+h3 {font-size: 28px;}
 }
 @media (max-width: 575px) {
 .meet_doc_box .text {text-align: center;}	
@@ -208,14 +377,17 @@ section.message_seo_news_section .news_text {text-align: center;}
 .building_design .building_text h5 {font-size: 22px;margin-top: 10px;}
 .building_design .building_text p {font-size: 14px;}
 .building_doc_img img {max-height: 300px;min-height: 300px;}
+
+.fees_box .fees_blue_box h2 {font-size: 30px;}
+
 }
 
 @media (max-width: 568px) {
 header#head-top:before {left: 0;top: 0;height: 150px;width: 20%;}
 header#head-top:after {right: 0;top: 0;height: 250px;width: 70%;}
 .banner-left {padding-top: 15px;text-align: center;margin-bottom:0px;}
-.banner-left h1 {font-size: 50px;}
-.banner-left h2 {font-size: 40px;}
+.banner-left h1 {font-size: 37px;}
+.banner-left h2 {font-size: 25px;}
 .banner-img {margin-top: 0px;}
 section#skull-sec {margin: 70px 0;}
 
@@ -256,6 +428,22 @@ section#skull-sec {margin: 70px 0;}
     display: flex;
     flex-direction: column-reverse;
 }
+
+.fees_box img {
+    top: -70px;
+    margin-bottom: -50px;
+}
+
+div#accordion {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section.medical_fee_medinfo_sec .all-head button .min_plus {
+    margin: 4px 5px;
+    float: left;
+}
+
 }
 
 @media (max-width: 360px) {
@@ -265,6 +453,7 @@ section#skull-sec {margin: 70px 0;}
 .skull-img .icon-div img {width: 27px;margin-top: 0;}
 .process-points ul li {height: 45px;}
 .payment-form-inner label {font-size: 12px;letter-spacing: 4px;}
-.all-head h4 {font-size: 25px;}   
+.all-head h4 {font-size: 25px; margin: 0 0 15px;}   
+.fees_box img {top: -50px; margin-bottom: -50px;}
 }
 
