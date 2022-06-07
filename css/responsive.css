@@ -233,6 +233,9 @@ section#testimonial {margin-bottom: 100px;}
 .fees_box .fees_text ul li {font-size: 12px;}
 .fees_box .fees_text {padding: 20px 20px 40px 20px;}
 .fees_box .fees_text.green {min-height: 500px;}
+
+.cardiology_Specialist .pink_box img {max-width: 310px;left: 20px;top: 50px;}
+.cardiology_Specialist .gray_box {padding-left: 130px;}
 }
 
 @media (max-width: 767px) {
@@ -267,7 +270,7 @@ section.doctor_services_section .all-head {margin-bottom: 30px;}
 #testimonial .all-head {text-align: center;margin-bottom: 40px;}
 section#testimonial .all-head hr {margin: 0 auto;}
 section#payment-option {margin: 0 0 70px;}
-.doctor_services_section .owl-dots {display: none;}
+.doctor_services_section .owl-dots {display: none !important;}
 
 
 .doctor_services_section .owl-nav {display: block !important;margin: 20px auto;width: 175px;}
@@ -316,6 +319,28 @@ section.medical_fee_medinfo_sec:before{display: none;}
 section.medical_fee_medinfo_sec .all-head p {margin: 20px 0;}
 section.medical_fee_medinfo_sec .all-head button .min_plus {position: absolute;left: 10px;}
 
+section.meet_other_doctor_section {padding: 30px 0;}
+section.meet_other_doctor_section .all-head {margin-bottom: 20px;}
+
+.cardiology_Specialist_section {padding-top: 30px;padding-bottom: 30px;margin-bottom: 0;}
+.cardiology_Specialist .pink_box {float: none;width: 100%;padding: 20px;border-radius: 20px;min-height: auto;text-align: center;}
+.cardiology_Specialist .gray_box {float: none;width: 100%;padding: 20px;border-radius: 20px;min-height: auto;margin-top: 30px;}
+.cardiology_Specialist .pink_box img {position: relative;max-width: 400px;left: 0;top: 0;margin: 0 auto;width: 100%;}
+.cardiology_Specialist .gray_box ul.red_icons li {display: inline-block;}
+.cardiology_Specialist .gray_box ul.black_icons {margin: 15px 0 10px 0;}
+
+.question_answer_section {padding-top: 0;padding-bottom: 0;}
+.question_answer_section .card-header .nav-tabs .nav-link {font-size: 15px;}
+.sf-ques-ans-head {display: inline-grid;}
+.sf-ques-ans-head .sf-ques-ans-name {padding-right: 0;font-size: 15px;line-height: 18px;margin-bottom: 12px;}
+.sf-ques-ans-body {padding: 0px;padding-left: 70px;}
+.sf-ques-ans-body .sf-pat-left img {width: 40px;height: 40px;}
+.sf-ques-ans-body p {font-size: 14px;line-height: 19px;}
+.sf-ques-ans-list ul li .children {margin-left: 0;}
+.sf-ques-ans-list ul li .children .sf-ques-ans-bottom {display: inline-grid;}
+.sf-ques-ans-list ul li .children .sf-ques-ans-bottom .sf-view-ans {font-size: 14px;}
+
+section.consultant_appoinment {padding: 30px;}
 }
 
 @media (max-width: 599px) {
