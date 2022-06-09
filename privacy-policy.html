@@ -10,10 +10,11 @@
 
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css" />
-
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css" />
-
+	<!-- Sidebar menu custom css -->
+	<link rel="stylesheet" href="css/sidebar-menu.css" />
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
@@ -31,6 +32,14 @@
       <!--header-->
       <header id="head-top">
           <div class="container">
+		   <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button type="button" id="sidebarCollapse">
+                        <i class="fas fa-align-left"></i>
+                        <span>Menu</span>
+                    </button>                   
+                </div>
+            </nav>
                 <div class="lang-change">
                     <select class="selectpicker" data-width="fit">
 					<option data-content='<span class="flag-icon flag-icon-ita"></span>'></option>
@@ -41,10 +50,59 @@
                 <div class="logo">
                   <a href="#"><img src="images/logo.png" alt="logo"></a>
                 </div>
-          </div>
+				
+		<!-- Sidebar  -->
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fa fa-times"></i>
+            </div>
+            <ul class="list-unstyled components">
+               <li>
+                    <a href="disease.html">Expose Your Problem</a>
+                </li>
+                <li>
+                    <a href="doctor.html">Choose Your Doctor</a>
+                </li>
+				<li>
+                    <a href="medical-fee.html">Choose Your Plan</a>
+                </li>
+				<li>
+					<a href="payment.html">Payment Option</a>
+				</li>
+				<li>
+					<a href="doctor-consultant.html">Doctor Consultant</a>
+				</li>
+				<li>
+					<a href="message-from-ceo.html">Message From Ceo</a>
+				</li>
+				<li>
+					<a href="terms-condition.html">Terms & Condition</a>
+				</li>
+				<li>
+					<a href="privacy-policy.html">Privacy Policy</a>
+				</li>
+                <!--
+				<li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li>
+				-->
+            </ul>
+        </nav>
+		
+       </div>
       </header>
-      <!--header ends-->
-        
+      <!--header ends-->        
         <!--main container-->
       <section id="banner">
           <div class="container">
@@ -246,6 +304,27 @@ Article. 7 of Legislative Decree No. 196/2003 grants the interested party the ex
 
 <!-- custom script -->
 <script src="js/script.js"></script>
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+     <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                //$('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                //$('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
  
 
   </body>
