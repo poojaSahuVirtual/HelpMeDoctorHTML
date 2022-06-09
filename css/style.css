@@ -728,13 +728,25 @@ section.meet_other_doctor_section .all-head hr {margin: 20px auto;}
 .meet_other_doctor_section .meet_doc_box .doc_img {border: none;position: relative;}
 
 
+/*----------Terms and Condition page css---------*/
+section.terms_condition_section {padding: 80px 0;}
+section.terms_condition_section .all-head {margin-bottom: 50px;}
+section.terms_condition_section .body_text {padding: 50px;}
+.body_text.gray_color {background: #f4f5f7;}
+section.terms_condition_section .body_text .sub_head {border-bottom: 2px solid #8d70e5;color: #8d70e5;font-size: 20px;margin-bottom: 20px;
+display: inline-block;padding-bottom: 5px;}
+section.terms_condition_section .body_text p {color: #496173;font-size: 14px;}
 
-
-
-
-
-
-
+section.terms_condition_section .body_text .num {display: block;font-size: 18px;margin: 20px 0;color: #fb6f7c;}
+section.terms_condition_section .body_text .num em {display: inline-block;width: 35px;height: 35px;border-radius: 100%;background: #fb6f7c;
+color: #fff;text-align: center;line-height: 35px;font-style: normal;font-size: 18px;box-shadow: 5px 0px 0px #f0d4eb;margin-right: 10px;}
+section.terms_condition_section .body_text ul {list-style: none;}
+section.terms_condition_section .body_text ul li {color: #496173;font-size: 14px;margin-bottom: 3px;}
+section.terms_condition_section .body_text label {
+    margin-top: 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
 
 
 
