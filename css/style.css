@@ -436,12 +436,14 @@ button.btn.dropdown-toggle.selectpicker.btn-default {margin: 0;line-height: norm
 .explore_service_section:after {content: "";position: absolute;width: 400px;height: 260px;background-image: url("../images/doctor_ala.png");background-repeat: no-repeat;bottom: 3%;right: 1%;background-size: cover;}
 
 .explore_service_section button.all-btn {margin: 100px auto 0;display: block;}
-.service_box {padding: 20px;box-shadow: 0px 0px 10px #eaeaeb;position: relative;background: #fff;border-radius: 10px;    margin-bottom: 40px;text-align: center;min-height: 230px;}
+.service_box {padding: 20px;box-shadow: 0px 0px 10px #eaeaeb;position: relative;background: #fff;border-radius: 10px;    margin-bottom: 40px;text-align: center;min-height: 250px;}
 .service_box:hover {box-shadow: 0px 0px 20px #cee0f5;cursor: pointer;}
 .service_box h5 {font-family: 'Helvetica';font-size: 16px;text-align: center;margin-bottom: 15px;margin-top: 10px;
 min-height: 40px; color:#496173;}
 .service_box img {max-width: 100px;}
-.service_box a {font-family: 'Helvetica';font-size: 14px;text-align: center;display: block;border: 1px solid #8d70e5;    border-radius: 20px;padding: 5px;text-decoration: none;color: #8d70e5;text-transform: uppercase;transition: .5s;max-width: 150px;margin: 0 auto;line-height: 20px;}
+.service_box a {font-family: 'Helvetica';font-size: 14px;text-align: center;display: block;border: 1px solid #8d70e5;border-radius: 20px;
+padding: 5px;text-decoration: none;color: #8d70e5;text-transform: uppercase;transition: .5s;width: 150px;margin: 0 auto;line-height: 20px;
+position: absolute;bottom: 20px;left: 0;right: 0;}
 .service_box a:hover {background:#886ae4;color:#fff;}
 /*-----------Finest patient section css---------*/
 section.finest_patient_section {padding: 80px 0 150px 0;}

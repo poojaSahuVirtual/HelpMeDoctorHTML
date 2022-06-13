@@ -188,7 +188,7 @@ section#testimonial {margin-bottom: 100px;}
 
 /*----------inner pages----------*/
 .explore_service_section:before {width: 260px;height: 475px;}
-.explore_service_section:after {width: 195px;height: 125px;}
+.explore_service_section:after {display:none;}
 .service_box a {font-size: 12px;}
 .service_box h5 {font-size: 14px;}
 
@@ -355,7 +355,8 @@ h3 {font-size: 28px;}
 .building_design .building_text p {font-size: 14px;}
 .building_doc_img img {max-height: 300px;min-height: 300px;}
 .fees_box .fees_blue_box h2 {font-size: 30px;}
-
+.service_box {min-height: auto;}
+.service_box a {position: relative;bottom: 0;left: 0;right: 0;}
 }
 
 @media (max-width: 568px) {
