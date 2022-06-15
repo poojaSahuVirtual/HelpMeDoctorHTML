@@ -9,19 +9,9 @@
 .container{max-width: 1300px;}
 .payment-form-inner {padding: 27px 60px 0px 30px;}
 .testimonial-section2 {/* padding: 16% 2% 0% 10%;background-size: cover;*/}
-.fees_box .fees_text.green {
-    min-height: 560px;
-}
-.fees_box .fees_text {
-    min-height: 600px;
-}
-
-.fees_box img {
-    position: relative;
-    top: -70px;
-    margin-bottom: -50px;
-}
-
+.fees_box .fees_text.green {min-height: 560px;}
+.fees_box .fees_text {min-height: 600px;}
+.fees_box img {position: relative;top: -70px;margin-bottom: -50px;}
 }
 
 @media (max-width: 1366px) {
@@ -56,25 +46,11 @@
 
 @media (max-width: 1300px) {
 .payment-form-inner .row {margin-bottom: 40px;}
-/*.fees_box .fees_text.green {
-    min-height: 570px;
-}*/
-.fees_box img {
-    top: -60px;
-    margin-bottom: -50px;
-}
-
-.fees_box .fees_blue_box h2 {
-    padding-top: 50px;
-}
-
-.fees_box .fees_blue_box .price {
-    font-size: 50px;
-}
-
-.fees_box .fees_text ul li {
-    font-size: 14px;
-}
+/*.fees_box .fees_text.green {min-height: 570px;}*/
+.fees_box img {top: -60px;margin-bottom: -50px;}
+.fees_box .fees_blue_box h2 {padding-top: 50px;}
+.fees_box .fees_blue_box .price {font-size: 50px;}
+.fees_box .fees_text ul li {font-size: 14px;}
 
 }
 @media (max-width: 1200px) {
@@ -114,16 +90,11 @@ header#head-top:before {width: 180px;}
 .fees_box .fees_blue_box {min-height: 195px;}
 .fees_box .fees_blue_box img {bottom: -50px;}
 .fees_box .fees_text {margin-top: 20px;min-height: 540px;}
-.fees_box .fees_text.green {
-    min-height: 470px;
-}
+.fees_box .fees_text.green {min-height: 470px;}
 .fees_box img {top: -50px; margin-bottom: -50px;}
 .fees_box .fees_text ul li {font-size: 12px;}
-
 .fees_box .fees_blue_box.grren {min-height: 240px;}
-.logo img {
-    max-width: 420px;
-}
+.logo img {max-width: 420px;}
 }
 
 /**tablet sizes**/
@@ -194,11 +165,12 @@ section#testimonial {margin-bottom: 100px;}
 
 .madical_fee_banner h1 {font-size: 35px;}
 .madical_fee_banner h2 {font-size: 34px;}
+.patient_registraion_section form {margin-left: 15px;margin-right: 15px;}
+.patient_registraion_section span.read_full {text-align: center;width: 100%;}
 }
 
 @media (max-width: 895px) {
 .testimonial-section2 {/*position: relative;padding: 23% 0% 4% 11%;*/}
-
 }
 
 @media (max-width: 771px) {
@@ -207,8 +179,6 @@ section#testimonial {margin-bottom: 100px;}
 
 @media (max-width: 768px) {
 .testimonial-section2 {/*position: relative;padding: 18% 0% 0% 5%;*/}
-
-
 }
 @media (min-width: 768px) and (max-width: 991px) {
 .building_design .building_text {padding: 10px;min-height: 220px;}
@@ -341,6 +311,16 @@ section.meet_other_doctor_section .all-head {margin-bottom: 20px;}
 .sf-ques-ans-list ul li .children .sf-ques-ans-bottom .sf-view-ans {font-size: 14px;}
 
 section.consultant_appoinment {padding: 30px;}
+.diagnosis_section_tbl {display: none;}
+.text_mobile {display: block;background: #dacff9;color: #496173;padding: 10px 20px;border-radius: 50px;width: 100%;font-size: 16px;
+margin: 25px 0;}
+.patient_doctor_section .doctor_patient_icon img {display: inline-block;}
+.diagnosis_section .diagnosis_blue_icon {text-align: center;}
+.diagnosis_section .text {text-align: center;font-size: 18px;line-height: 20px;margin: 15px 0;}
+.diagnosis_section .blue_icon {text-align: center;}
+.bluhead {display: none !important;}
+h3.bluhead_mobile {display: block;color: #fff;font-size: 16px;text-align: center;margin: 0px 0 30px 0;padding: 10px;background: #8d70e5;
+border-radius: 20px;}
 }
 
 @media (max-width: 599px) {
@@ -398,7 +378,7 @@ section#skull-sec {margin: 70px 0;}
 .fees_box img {top: -70px;margin-bottom: -50px;}
 div#accordion {width: 100%;margin: 0 auto;}
 section.medical_fee_medinfo_sec .all-head button .min_plus {margin: 4px 5px;float: left;}
-
+.patient_doctor_section .doctor_patient_icon img {margin: 30px;display: inline-block;}
 }
 
 @media (max-width: 360px) {

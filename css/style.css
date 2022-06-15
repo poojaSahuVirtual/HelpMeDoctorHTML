@@ -689,39 +689,6 @@ margin-top: 40px;margin-bottom: 30px;text-transform: uppercase;}
 .consultant_appoinment textarea:focus-visible {outline-color: #8d70e5;outline-style: solid;}
 section.consultant_appoinment h3 {color: #8d70e5;font-size: 20px;text-align: center;margin: 20px 0 40px 0;padding: 0;}
 
-.consultant_appoinment .icons_bix {text-align: right;}
-.consultant_appoinment .icons_bix i {margin: 0 0 20px 20px;font-size: 18px;}
-.consultant_appoinment .icons_bix i:first-child {background: #8d70e5;color: #fff;width: 35px;height: 35px;text-align: center;line-height: 35px;
-border: 1px solid #8d70e5;border-radius: 50%;}
-.consultant_appoinment .icons_bix i:last-child {background: #fff;color: #8d70e5;width: 35px;height: 35px;text-align: center;line-height: 35px;
-border: 1px solid #8d70e5;border-radius: 50%;}
-
-section.consultant_appoinment.patient_registraion {
-    padding: 50px 0;
-}
-.uploadButton{
-  display:none;
-}
-.uploadLabel {
-  border: 1px solid #ccc;
-  display: inline-block;
-  padding: 7px 15px;
-  cursor: pointer;
-  border-radius: 5px;
-  background-color: blue;
-  color: #ffffff;
-}
-.uploadLabel {
-    border: 1px solid #ccc;
-    padding: 7px 15px !important;
-    cursor: pointer;
-    border-radius: 20px;
-    background-color: #8d70e5;
-    color: #ffffff;
-}
-
-
-
 
 /*----------Meet our other doctors section tab css---------*/
 .question_answer_section {position: relative;background: #fff;padding-top: 80px;padding-bottom: 80px;}
@@ -765,7 +732,6 @@ section.meet_other_doctor_section .all-head hr {margin: 20px auto;}
 .meet_other_doctor_section .all-head p {color: #496173;max-width: 750px;margin: 0 auto;}
 .meet_other_doctor_section .meet_doc_box .doc_img {border: none;position: relative;}
 
-
 /*----------Terms and Condition page css---------*/
 section.terms_condition_section {padding: 80px 0;}
 section.terms_condition_section .all-head {margin-bottom: 50px;}
@@ -780,11 +746,87 @@ section.terms_condition_section .body_text .num em {display: inline-block;width:
 color: #fff;text-align: center;line-height: 35px;font-style: normal;font-size: 18px;box-shadow: 5px 0px 0px #f0d4eb;margin-right: 10px;}
 section.terms_condition_section .body_text ul {list-style: none;}
 section.terms_condition_section .body_text ul li {color: #496173;font-size: 14px;margin-bottom: 3px;}
-section.terms_condition_section .body_text label {
-    margin-top: 60px;
-    font-size: 16px;
-    text-transform: uppercase;
-}
+section.terms_condition_section .body_text label {margin-top: 60px;font-size: 16px;text-transform: uppercase;}
+
+/*--------Patient registration page css-------------*/
+.patient_registraion_section {padding: 50px 0;background: #fff;position:relative;}
+.patient_registraion_section:before {content: "";position: absolute;width: 270px;height: 500px;background-image: url("../images/service_left_design.png");background-repeat: no-repeat;top: 150px;left: 0;background-size: cover;}
+
+.patient_registraion_section .all-head {text-align: center;margin-bottom: 50px;}
+.patient_registraion_section form {padding: 20px 40px;border-radius: 20px;box-shadow: 0px 0px 20px #dfd9d9;padding-top: 40px;background: #fff;margin-bottom:50px;}
+.patient_registraion_section input[type="text"], .patient_registraion_section input[type="email"], .patient_registraion_section input[type="datetime"] {width: 100%;height: 40px;padding: 0 15px;border: 1px solid #8d70e5;box-shadow: inset 0px 4px 10px #c4ced1;margin-bottom: 25px;
+border-radius: 20px;font-size: 14px;background: #fdfdfd;}
+
+.patient_registraion_section label {font-size: 14px;margin: 0;padding: 0 0 5px 15px;display:block;}
+.patient_registraion_section input[type="text"]:focus-visible, .patient_registraion_section input[type="email"]:focus-visible, .patient_registraion_section input[type="datetime"]:focus-visible {outline-color: #8d70e5;outline-style: solid;}
+
+.patient_registraion_section select {width: 100%;height: 40px;padding: 0 15px;margin-bottom: 25px;border-radius: 20px;font-size: 14px;background: #fdfdfd;color: #7c7c7c;border: 1px solid #8d70e5;box-shadow: inset 0px 4px 10px #c4ced1;-webkit-appearance: none;-moz-appearance: none;}
+
+.patient_registraion_section select.minimal {background-image:linear-gradient(45deg, transparent 50%, gray 50%),linear-gradient(135deg, gray 50%, transparent 50%),linear-gradient(to right, #ccc, #ccc);background-position:calc(100% - 20px) calc(1em + 2px),calc(100% - 15px) calc(1em + 2px),calc(100% - 2.5em) 0.5em;background-size:5px 5px,5px 5px,1px 0em;background-repeat: no-repeat;}
+
+.patient_registraion_section select.minimal:focus {background-image:linear-gradient(45deg, gray 50%, transparent 50%),linear-gradient(135deg, transparent 50%, gray 50%),linear-gradient(to right, #ccc, #ccc);background-position:calc(100% - 15px) 1em,calc(100% - 20px) 1em,calc(100% - 2.5em) 0.5em;background-size:5px 5px,5px 5px,1px 0em;background-repeat: no-repeat;border-color: #8d70e5;outline: 0;}
+.patient_registraion_section input[type="submit"] {background: #8d70e5;color: #fff;padding: 8px 40px;border-radius: 20px;border: none;cursor: pointer;margin-top: 40px;margin-bottom: 30px;text-transform: uppercase;}
+
+.patient_registraion_section input[type="submit"]:hover {background: #6a4ebf;}
+.patient_registraion_section textarea {width: 100%;padding: 0 15px;border: 1px solid #8d70e5;box-shadow: inset 0px 4px 10px #c4ced1;margin-bottom: 25px;border-radius: 15px;font-size: 14px;background: #fdfdfd;}
+.patient_registraion_section textarea:focus-visible {outline-color: #8d70e5;outline-style: solid;}
+.patient_registraion_section h3 {color: #8d70e5;font-size: 20px;text-align: center;margin: 20px 0 40px 0;padding: 0;}
+
+.patient_registraion_section form .icons_bix {text-align: right;}
+.patient_registraion_section form .icons_bix i {margin: 0 0 20px 20px;font-size: 18px;}
+.patient_registraion_section form .icons_bix i:first-child {background: #8d70e5;color: #fff;width: 35px;height: 35px;text-align: center;line-height: 35px;border: 1px solid #8d70e5;border-radius: 50%;}
+.patient_registraion_section form .icons_bix i:last-child {background: #fff;color: #8d70e5;width: 35px;height: 35px;text-align: center;line-height: 35px;border: 1px solid #8d70e5;border-radius: 50%;}
+
+.uploadButton{display:none;}
+.uploadLabel {border: 1px solid #ccc;display: inline-block;padding: 7px 15px;cursor: pointer;border-radius: 5px;background-color: blue;
+color: #ffffff;}
+.uploadLabel {border: 1px solid #ccc;padding: 7px 15px !important;cursor: pointer;border-radius: 20px;background-color: #8d70e5;
+color: #ffffff;}
+.patient_registraion_section h3.bluhead {background: #8d70e5;color: #fff;padding: 10px 20px;border-radius: 10px;display: inline-block;width: 100%;font-size:18px;}
+.patient_registraion_section h3.bluhead span.left {float: left;}
+.patient_registraion_section h3.bluhead span.right {float: right;}
+
+.patient_doctor_section {padding: 50px 0 0;background: #fff;position: relative;}
+.patient_doctor_section:before {content: "";position: absolute;width: 84px;height: 177px;background-image: url("../images/cunsultant_form_left_bg.png");background-repeat: no-repeat;top: -130px;left: 0;background-size: cover;}
+.patient_doctor_section:after {content: "";position: absolute;width: 89px;height: 278px;background-image: url("../images/cunsultant_form_right_bg.png");background-repeat: no-repeat;bottom: 200px;right: 0;background-size: cover;}
+.patient_doctor_section .all-head hr {margin: 0px 0 20px 0;}
+
+.patient_doctor_section .patient_content ul {list-style: none;margin: 30px 0 0 0;padding: 0;}
+.patient_doctor_section .patient_content ul li {color: #496173;font-size: 16px;margin: 0 0 20px 0px;padding: 0 0 0 30px;position: relative;}
+.patient_doctor_section .patient_content ul li:before {content: "";position: absolute;background-image: url("../images/blue_arrow.png");
+width: 12px;height: 8px;left: 0px;background-repeat: no-repeat;top: 5px;background-size: cover;}
+.patient_doctor_section .doctor_patient_icon {text-align: center;}
+.patient_doctor_section .doctor_patient_icon img {margin: 30px auto;max-width: 100px;display: block;}
+
+.diagnosis_section {width: 100%;}
+.diagnosis_section {background: #886ae4;color: #fff;padding: 10px 20px;border-radius: 10px;display: inline-block;width: 100%;font-size: 18px;}
+.diagnosis_section .text img {width: 25px;}
+.diagnosis_section .diagnosis_blue_icon img {width: 25px;margin-top: 5px;}
+.diagnosis_section .blue_icon {text-align: right;}
+.diagnosis_section i {color: #fff;width: 35px;height: 35px;text-align: center;line-height: 35px;border: 2px solid #fff;border-radius: 50%;}
+
+
+.diagnosis_section_tbl {background: #dacff9;color: #496173;padding: 3px 20px;border-radius: 50px;display: inline-block;width: 100%;
+font-size: 15px;margin: 20px 0;}
+.diagnosis_section_tbl .text1, .diagnosis_section_tbl .text2, .diagnosis_section_tbl .text3, .diagnosis_section_tbl .text4 {
+padding:10px 0;height:100%;}
+.diagnosis_section_tbl .text2 {border-left: 1px solid #8d70e5;padding-left: 10px;}
+.diagnosis_section_tbl .text3 {border-left: 1px solid #8d70e5;padding-left: 10px;}
+
+
+.patient_registraion_section hr.line {border-bottom: 1px #ddd !important;height: auto;margin-top: 20px;}
+.patient_registraion_section span.read_full {margin-bottom: 50px;font-weight: 600;font-size: 15px;}
+
+.patient_registraion_section .follow_link i {background: #8d70e5;color: #fff;width: 35px;height: 35px;text-align: center;line-height: 35px;
+border-radius: 50%;margin-right: 10px;}
+.patient_registraion_section .follow_link {color: #496173;font-size: 14px;text-decoration: none;}
+.patient_registraion_section .container {z-index: 9999;position: relative;}
+.patient_registraion_section.bottom_sec:before {content: "";position: absolute;width: 270px;height: 590px;background-image: url("../images/patient_right_design.png");background-repeat: no-repeat;top: 0px;left: 0;background-size: cover;}
+.patient_registraion_section.bottom_sec:after {content: "";position: absolute;width: 200px;height: 565px;background-image: url("../images/meet_doc_right_design.png");background-repeat: no-repeat;bottom: 170px;right: 0;background-size: cover;z-index: 0;}
+.text_mobile {display: none;}
+h3.bluhead_mobile {display: none;}
+
+
 
 
 
